@@ -1,0 +1,147 @@
+[
+  {
+    "title": "Сорочка №1",
+    "sex": "male",
+    "name": "Сорочка №1",
+    "cost": 1000,
+    "country": "turkey",
+    "image": "src/images/goods/1.jpg",
+    "size": "S"
+  },
+  {
+    "title": "Сорочка №2",
+    "sex": "male",
+    "name": "Сорочка №2",
+    "cost": 2000,
+    "country": "china",
+    "image": "src/images/goods/2.jpg",
+    "size": "M"
+  },
+  {
+    "title": "Сорочка №3",
+    "sex": "male",
+    "name": "Сорочка №3",
+    "cost": 3000,
+    "country": "france",
+    "image": "src/images/goods/3.jpg",
+    "size": "L"
+  },
+  {
+    "title": "Сорочка №4",
+    "sex": "male",
+    "name": "Сорочка №4",
+    "cost": 4000,
+    "country": "italy",
+    "image": "src/images/goods/4.jpg",
+    "size": "XL"
+  },
+    {
+    "title": "Сорочка №5",
+    "sex": "male",
+    "name": "Сорочка №5",
+    "cost": 1000,
+    "country": "turkey",
+    "image": "src/images/goods/5.jpg",
+    "size": "S"
+  },
+  {
+    "title": "Сорочка №6",
+    "sex": "male",
+    "name": "Сорочка №6",
+    "cost": 2000,
+    "country": "china",
+    "image": "src/images/goods/6.jpg",
+    "size": "M"
+  },
+  {
+    "title": "Сорочка №7",
+    "sex": "male",
+    "name": "Сорочка №7",
+    "cost": 3000,
+    "country": "france",
+    "image": "src/images/goods/7.jpg",
+    "size": "L"
+  },
+  {
+    "title": "Сорочка №8",
+    "sex": "male",
+    "name": "Shirt №8",
+    "cost": 4000,
+    "country": "italy",
+    "image": "src/images/goods/8.jpg",
+    "size": "XL"
+  },
+    
+  {
+    "title": "Плаття №1",
+    "sex": "female",
+    "name": "Плаття №1",
+    "cost": 1000,
+    "country": "turkey",
+    "image": "src/images/goods/9.jpg",
+    "size": "S"
+  },
+    {
+    "title": "Плаття №2",
+    "sex": "female",
+    "name": "Плаття №2",
+    "cost": 2000,
+    "country": "china",
+    "image": "src/images/goods/10.jpg",
+    "size": "M"
+  },
+    {
+    "title": "Плаття №3",
+    "sex": "female",
+    "name": "Плаття №3",
+    "cost": 3000,
+    "country": "france",
+    "image": "src/images/goods/11.jpg",
+    "size": "L"
+  },
+    {
+    "title": "Плаття №4",
+    "sex": "female",
+    "name": "Плаття №4",
+    "cost": 4000,
+    "country": "italy",
+    "image": "src/images/goods/12.jpg",
+    "size": "XL"
+  },
+    {
+    "title": "Плаття №5",
+    "sex": "female",
+    "name": "Плаття №5",
+    "cost": 1000,
+    "country": "turkey",
+    "image": "src/images/goods/13.jpg",
+    "size": "S"
+  },
+    {
+    "title": "Плаття №6",
+    "sex": "female",
+    "name": "Плаття №6",
+    "cost": 2000,
+    "country": "china",
+    "image": "src/images/goods/14.jpg",
+    "size": "M"
+  },
+    {
+    "title": "Плаття №7",
+    "sex": "female",
+    "name": "Плаття №7",
+    "cost": 3000,
+    "country": "france",
+    "image": "src/images/goods/15.jpg",
+    "size": "L"
+  },
+    {
+    "title": "Плаття №8",
+    "sex": "female",
+    "name": "Плаття №8",
+    "cost": 4000,
+    "country": "italy",
+    "image": "src/images/goods/16.jpg",
+    "size": "XL"
+  }
+]

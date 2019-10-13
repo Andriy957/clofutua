@@ -1,0 +1,458 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+    height: 100%;
+    
+}
+
+.wrapper{
+    min-height: 100%;
+    width: 100%; 
+}
+
+/******************HEADER*******************/
+header {
+   position: relative;
+   background:#111;
+   overflow: hidden;
+    font-family: "Gerbera", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:bold;
+    letter-spacing: 0.5px;
+     z-index: 1;
+}
+header a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 36px;
+  text-decoration: none;
+  font-size: 15px;
+} 
+  
+.header-left{
+    margin-left: 40px;
+}
+.header-centered a {
+float:none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    font-size:30px;
+}
+.header-right {
+  float: right;
+    margin-right: 40px;
+    }
+.icon{
+    padding: 10px 10px;
+}
+.header-shop{
+    padding:15px 10px;
+}
+.header-title{
+     padding:15px 10px;
+    
+}
+/****************************MAIN**************************/
+main {
+    height: auto;
+    min-height: 1000px;
+    
+    
+}
+#goods{
+    margin: 10px;
+
+}
+
+/****************************GOODS**************************/
+.single-goods {
+    width: 280px;
+    height: 530px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+       box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.single-goods button {
+    display: block;
+    margin: 20px auto;
+}
+#myDropdown{
+    margin-left: 20px;
+}
+.btn-filter{
+    display: block;
+}
+.add-to-cart{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+.add-to-cart:hover{
+    opacity: 0.6
+}
+#mini-cart{
+  padding: 20px;
+}
+.dropbtn{
+    margin-left: 20px;
+}
+.shoping-cart-minicart{
+ background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+
+#filters {
+    height: 940px;
+    width: 200px;
+ 
+  float: left;
+  margin: 10px;
+    margin-left: 20px;
+    padding: 0px;
+}
+.price-input {
+  float: left;
+}
+.input-text {
+  width: 50px;
+}
+
+
+/******************FOOTER*******************/
+footer {
+    height: 965px;
+    width: 100%;
+    background: black;
+    color:white;
+    overflow: hidden;
+    font-size: 12px;
+    font-family: "Gerbera", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:bold;
+    letter-spacing: 0.5px;
+    
+}
+footer a, li {
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+    padding: .5rem 0;
+    margin-left: 10px;
+    }
+/******************footer title*******************/
+.footer-title{
+   height: 155px;
+ 
+    overflow: hidden;
+
+}
+.footer-title-name {
+    height: 155px;
+    
+    width: calc(60% - 1px);
+    margin-right: 1px;
+    float: left;
+    color:white;
+    font-size:30px;
+}
+.footer-logo {
+  margin-top: 70px; 
+margin-left:50px;
+}
+
+
+ 
+.footer-title-discount{
+    height: 155px;
+     
+    width: calc(13% - 1px);
+    margin-right: 1px;
+    float: left;
+}
+.footer-title-discount p{
+  margin-top: 70px; 
+}
+  
+.footer-title-appstore{
+     height: 155px;
+   
+    width: calc(12% - 1px);
+    margin-right: 1px;
+    float: left;
+}
+.footer-apple{
+   margin-top: 50px; 
+}
+   .footer-google{
+   margin-top: 50px; 
+}
+.footer-title-googleplay{
+     height: 155px;
+   
+    width: calc(15% - 1px);
+    margin-right: 1px;
+    float: left;
+}
+/******************footer contacts*******************/
+.footer-contacts{
+   height: 470px;
+    
+    border-top:1px solid#999;
+    overflow: hidden;
+    
+}
+.footer-contacts-buyers{
+    height: 470px;
+    
+    width: calc(20% - 1px);
+    margin-right: 1px;
+    float: left;
+}
+.buyers-title  {
+    margin-left: 20px;
+        margin-bottom: 7px;
+    margin-top: 30px
+}
+
+
+.buyers-title, .footer-company-inner,.footer-company-inner2{
+    color:grey;
+}
+
+ 
+.footer-contacts-company{
+    height: 470px;
+    
+    width: calc(20% - 1px);
+    margin-right: 1px;
+    float: left;
+}
+ 
+.footer-contacts-sale{
+    height: 470px;
+    
+    width: calc(20% - 1px);
+    margin-right: 1px;
+    float: left;
+}
+ 
+.footer-contacts-telephone{
+    height: 470px;
+    
+    width: calc(20% - 1px);
+    margin-right: 1px;
+    float: left;
+}
+
+.footer-contacts-office{
+    height: 470px;
+      
+    width: calc(20% - 1px);
+    margin-right: 1px;
+    float: left;
+}
+
+/******************footer regions*******************/
+.footer-regions{
+   height: 130px; 
+    
+     padding-right: 10px;
+    border-top:1px solid#999;
+    overflow: hidden;
+     
+}
+.regions-title{
+    color: grey;
+    margin-left: 60px;
+}
+
+.footer-regions-inner{
+    height: 130px; 
+    width: 50%;
+    
+    
+   }
+.footer-regions-inner a{
+   
+    margin-left: 60px;
+   }
+.buyers-title-regions  {
+    padding-top: 20px;
+    
+    margin-left: 60px;
+        margin-bottom: 20px;
+    color: grey
+}
+/******************footer reviews*******************/
+.footer-reviews{
+    height: 130px;
+   
+    border-top:1px solid#999;
+    overflow: hidden;
+}
+.footer-reviews-inner{
+   height: 130px;
+    
+    width: calc(57% - 1px);
+    margin-right: 1px;
+         float:left;
+    
+}
+.footer-reviews-inner p{
+    margin-left: 60px;
+     margin-top: 30px;
+  
+}
+.footer-reviews-inner a{
+    margin-left: 60px;
+    text-decoration:underline;
+   
+}
+ 
+.footer-reviews-visa{
+     height: 130px;
+   
+    width: calc(15% - 1px);
+    margin-right: 1px;
+    float: left;
+    overflow: hidden;
+    
+}
+.visa-image{
+     margin-top: 30px;
+   
+}
+.footer-reviews-text{
+     height: 130px;
+     
+    width: calc(20% - 1px);
+    margin-right: 1px;
+    float:left;
+    overflow: hidden;
+}
+.footer-reviews-text p{
+    margin-top: 30px; 
+    
+}
+.footer-reviews-text-inner{
+    
+}
+.footer-reviews-button-up{
+    height: 130px;
+   
+    width: calc(8% - 1px);
+    margin-right: 1px;
+    
+    float:left;
+}
+/******************footer company*******************/
+
+.footer-company{
+   height: 80px;
+   
+    border-top:1px solid#999;
+    overflow: hidden;
+}
+.footer-company-inner{
+    height: 80px;
+      
+    width: calc(14% - 1px);
+    margin-right: 1px;
+    float: left;
+    
+}
+.footer-company-inner p{
+  margin-left: 60px; 
+    margin-top: 30px;
+    
+}
+.footer-company-inner2{
+    height: 80px;
+     
+    width: calc(78% - 1px);
+    margin-right: 1px;
+    float: left;
+    
+}
+.footer-company-inner2 p{
+  margin-left: 60px; 
+    margin-top: 30px;
+}
+.footer-company-buttons{
+    height: 80px;
+     
+    width: calc(8% - 1px);
+    margin-right: 1px;
+    float: left;
+}
+/*responsive*/
+
+@media screen and (max-width: 900px) {
+    footer{
+        height: auto;
+        
+    }
+  .footer-title, .footer-contacts,.footer-regions,.footer-reviews,.footer-company {
+     height: auto;
+    }
+    
+    .footer-title-name,.footer-title-discount,.footer-title-appstore,.footer-title-googleplay,.footer-reviews-inner,.footer-reviews-visa,.footer-company-inner,.footer-contacts-buyers,.footer-contacts-company,.footer-contacts-sale,.footer-contacts-telephone,.footer-contacts-office,.footer-company-inner2,.footer-regions-inner{
+        float:none;
+        width: 100%;
+        max-height: 400px;
+        margin-left: 100px;
+        height: auto;
+    }
+ .footer-reviews-text{
+        margin-left: 150px;
+        width: 50%
+    }
+    .footer-reviews-visa{
+         margin-left: 150px;
+    }
+    .footer-regions-inner{
+        width: 25%;
+    }
+    .footer-title-discount,.footer-title-appstore,.footer-title-googleplay{
+        margin-left: 140px;
+       
+    }
+    .footer-title-discount{
+        margin-left: 160px;
+        width: 50%;
+    }
+    .footer-title-discount p{
+        margin-top: 20px;
+        
+    }
+    .footer-logo{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .footer-company{
+        max-height: 120px;
+    }
+    .footer-regions{
+        height: 160px;
+    }
+    .footer-title{
+         max-height: 500px;
+        
+    }
+  }
